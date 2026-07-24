@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/monaco-protocol
+notes: >-
+  Betdex integrates on-chain via the Monaco Protocol on Solana. There is no REST
+  API or server-side SDK; the first-party developer surface is a set of TypeScript
+  client libraries published under the @monaco-protocol npm scope. No PyPI, Maven,
+  NuGet, Go, RubyGems, Packagist, or crates.io first-party packages were found.
+packages:
+- language: javascript
+  registry: npm
+  name: '@monaco-protocol/client'
+  url: https://www.npmjs.com/package/@monaco-protocol/client
+  version: 12.0.1
+  license: MIT
+  install: npm install @monaco-protocol/client
+  description: Interface package for the Monaco Protocol on Solana.
+  repository: https://github.com/MonacoProtocol/protocol
+  official: true
+- language: javascript
+  registry: npm
+  name: '@monaco-protocol/admin-client'
+  url: https://www.npmjs.com/package/@monaco-protocol/admin-client
+  version: 12.0.1
+  license: MIT
+  install: npm install @monaco-protocol/admin-client
+  description: Admin interface package for the Monaco Protocol on Solana.
+  repository: https://github.com/MonacoProtocol/protocol
+  official: true

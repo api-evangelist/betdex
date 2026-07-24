@@ -1,0 +1,17 @@
+# Betdex
+
+> Betdex Labs builds BetDEX, a decentralized sports betting exchange, and the Monaco Protocol — an open-source, permissionless liquidity and betting-exchange protocol on the Solana blockchain. Integration is on-chain via Solana programs and first-party TypeScript client libraries, not a REST API.
+
+## Developer
+
+- [Developer portal](https://www.betdex.com/developers): Monaco Protocol developer resources
+- [GitHub organization](https://github.com/MonacoProtocol): The Monaco Protocol source
+
+## SDKs
+
+- [@monaco-protocol/client (npm)](https://www.npmjs.com/package/@monaco-protocol/client): Interface package for the Monaco Protocol on Solana (MIT)
+- [@monaco-protocol/admin-client (npm)](https://www.npmjs.com/package/@monaco-protocol/admin-client): Admin interface package for the Monaco Protocol on Solana (MIT)
+
+## Artifacts
+
+- [Packages](https://raw.githubusercontent.com/api-evangelist/betdex/refs/heads/main/packages/betdex-packages.yml): First-party client library catalog

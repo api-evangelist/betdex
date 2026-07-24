@@ -1,8 +1,25 @@
 aid: betdex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/betdex.png
 name: Betdex
-description: Betdex is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Betdex Labs is the team behind BetDEX, a decentralized sports betting
+  exchange, and the Monaco Protocol — an open-source, permissionless liquidity and
+  betting-exchange protocol built on the Solana blockchain. Rather than a traditional
+  REST API, Betdex exposes an on-chain integration surface: Solana programs plus first-party
+  TypeScript client libraries (@monaco-protocol/client and @monaco-protocol/admin-client
+  on npm) that let developers create markets, place and match orders, and settle outcomes
+  directly against the protocol. Developer resources are published at betdex.com/developers
+  with source under the MonacoProtocol GitHub organization.'
 url: https://raw.githubusercontent.com/api-evangelist/betdex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Sports Betting
+- Betting Exchange
+- Blockchain
+- Solana
+- Web3
+- Decentralized Finance
+- SDK
+- Cryptocurrency
 apis: []
+common:
+- type: DomainSecurity
+  url: security/betdex-domain-security.yml
+- type: Website
+  url: https://www.betdex.com
+- type: DeveloperPortal
+  url: https://www.betdex.com/developers
+- type: Documentation
+  url: https://www.betdex.com/developers
+- type: GitHubOrganization
+  url: https://github.com/MonacoProtocol
+- type: Packages
+  url: packages/betdex-packages.yml
+- type: SDKs
+  url: packages/betdex-packages.yml
+- type: LLMsTxt
+  url: llms/betdex-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
